@@ -1,0 +1,113 @@
+/* * {
+    outline: 1px dotted red;
+} */
+
+
+/* class selectors */
+
+.lightBox {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+
+.lightBoxImage {
+    max-width: 90%;
+    max-height: 90%;
+    /* width: 100%; */
+}
+
+.highlightedStudents {
+    padding: 2;
+    text-align: center;
+}
+
+.dogImage img {
+    margin: 0 auto;
+}
+
+.center {
+    padding: 6em;
+}
+
+.jumbotron {}
+
+.petRepublic {
+    background: url("http://www.powertothepet.com/wp-content/uploads/2017/09/Pet-Republic-Header.png") no-repeat center center;
+    background-size: contain;
+}
+
+.activeb {
+    color: #c6434a;
+    ;
+}
+
+.button {
+    background-color: #c6434a;
+    color: white;
+}
+
+.button:hover {
+    background-color: #68282b;
+    color: white;
+}
+
+
+/* ID selectors */
+
+#button {
+    background-color: #c6434a;
+    color: white;
+}
+
+#jumbotronButton {
+    background-color: #68282b;
+    color: #ffffff;
+}
+
+#jumbotronText {
+    color: white;
+}
+
+#gallery img {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+#more {
+    display: none;
+}
+
+
+/* type selectors */
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+legend {
+    color: rgb(39, 39, 39);
+}
+
+
+/* attribute selector */
+
+a[href="#"] {
+    color: #c6434a;
+}
+
+
+/* universal selector */
+
+* {
+    color: rgb(39, 39, 39);
+}
